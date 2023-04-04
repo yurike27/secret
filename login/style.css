@@ -1,0 +1,84 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #9932cc;
+    background-size: cover;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 480px;
+    padding: 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.662);
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box h1 {
+    color: #000000;
+    text-align: center;
+}
+
+.box h5 {
+    color: #0e0e0e;
+    text-align: center;
+}
+
+.lapisInput {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: black;
+}
+
+.lapisInput input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.tombol-login input {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #000000;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.tombol-login input:hover {
+    background: #0055ff;
+    color: #fff;
+}
+
+.klik {
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.klik label a {
+    color: #090909;
+}
+
+.klik label a:hover {
+    background: cover;
+    color: #000000;
+}

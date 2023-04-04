@@ -1,0 +1,20 @@
+#home img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#carouselHome .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.btn-purple {
+    background-color: purple;
+    color: #fff;
+}
+
+.btn-purple:hover {
+    background-color: violet;
+}
